@@ -1,5 +1,5 @@
 # ComputeDWMGraphsJCF
-Matlab function which computes the Jordan Canonical Form and the transformation matrices for any Directed Dutch windmill graph.
+Matlab function which computes the Jordan Canonical Form and the transformation matrices for any Directed Dutch windmill graph of eta cycles of kappa nodes plus a common vertex.
 Syntax : [A,L,J,P,eta, kappa,nb_jordan,sizejordan,coljordan]=ComputeDWMGraphsJCF
 Type help ComputeDWMGraphsJCF to obtain the description of the variables
 
@@ -13,7 +13,7 @@ Data files containing the adjacency, Laplacian, transformation matrix, JCF, etc.
 ComputeDWMGraphsJCF.m file and can be used with the SecondOrderConsensusStateMatrixJCF program.
 
 # Sim_Second_Order_Consensus.slx 
-Simulink model which provides the time responses for a second-order consensus. It requires the laplacian matrix 
+Simulink model which provides the time responses for a second-order consensus. It requires the matrices obtained with the SecondOrderConsensusStateMatrixJCF.m program.
 
   
 
