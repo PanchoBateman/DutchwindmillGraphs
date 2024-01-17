@@ -1,6 +1,7 @@
 function [A,L,J,P,eta, kappa,nb_jordan,sizejordan,coljordan]=ComputeDWMGraphsJCF
-% This program computes the eigenvalues and the eigenvectors of the
-% Laplacian matrix L for a directed Dutch windmill (DWM) graph.
+% This function computes the eigenvalues and the eigenvectors of the
+% Laplacian matrix L for a directed Dutch windmill (DWM) graph. This graph has eta
+% cycles, each cycle has kappa vertices plus a common vertex.
 % The DWM graph is compound with eta cycles and each cycles has kappa
 % vertices + a common vertex. 
 % To display the Jordan chains : uncomment lines 130-132
